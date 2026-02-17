@@ -47,6 +47,11 @@ Steps performed:
 
 Demonstrates manual identity and group management using the Azure Portal to implement structured administrative access.
 
+<p align="center"><strong>Figure 1: Senior Admins Group Creation</strong></p>
+
+<p align="center">
+  <img src="images/senior-admins.png" width="700" height="400">
+</p>
 
 ## Creating the Junior Admins Group using Azure Powershell
 
