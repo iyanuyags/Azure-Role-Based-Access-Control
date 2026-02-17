@@ -48,19 +48,6 @@ Steps performed:
 Demonstrates manual identity and group management using the Azure Portal to implement structured administrative access.
 
 
-
-
-<div align="center">
-
-Senior Admins Group Creation
-
-
-<img src="images/senior-admins.png" width="700">
-
-![Senior Admins Group Creation](images/senior-admins.png)
-
-</div>
-
 ## Creating the Junior Admins Group using Azure Powershell
 
 Steps performed:
@@ -102,7 +89,6 @@ Steps performed:
 
 
 ## Security Concepts Demonstrated
-
 - Identity and Access Management (IAM)
 - Role-Based Access Control (RBAC)
 - Subscription-level scope control
@@ -139,4 +125,3 @@ It highlights secure access delegation and cloud security best practices relevan
 - Azure Administrator
 - IAM Analyst
 - SOC Analyst
-
