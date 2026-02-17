@@ -45,16 +45,53 @@ Steps performed:
 2. Created a new Security Group named Senior Admins
 3. Added user Joseph Price as a member
 
-This demonstrates GUI-based identity administration.
+Demonstrates manual identity and group management using the Azure Portal to implement structured administrative access.
+
+
+
+
+<div align="center">
 
 Senior Admins Group Creation
 
 
+<img src="images/senior-admins.png" width="700">
 
-![Senior Admins Group](images/senior-admins.png)
+![Senior Admins Group Creation](images/senior-admins.png)
+
+</div>
+
+## Creating the Junior Admins Group using Azure Powershell
+
+Steps performed:
+
+1. Navigated to Azure Powershell
+2. Created a new Security Group named Junior Admins
+3. Added user Isabel Garcia as a member
+
+This demonstrates manual identity and group management using the Azure Portal to implement structured administrative access.
+
+## Creating the Service Desk Group using Azure CLI
+
+Steps performed:
+
+1. Navigated to Azure CLI
+2. Created a new Security Group named Service Desk
+3. Added user Dylan Williams as a member
 
 
-## Creating the Senior Admins Group using Azure Portal
+## Assigning the Virtual Machine Contributor Role to the Service Desk Group
+
+Steps performed:
+
+1. Navigated to Azure Portal
+2. Opened Subscriptions and selected the appropriate subscription
+3. Clicked on Access Control (IAM)
+4. Selected Add role assignment
+5. Chose the Virtual Machine Contributor role
+6. Selected Service Desk group as the member
+7. Reviewed and clicked Assign to complete the role assignment
+
 
 ## Why Assign Roles to Groups Instead of Users?
 - Improves scalability
