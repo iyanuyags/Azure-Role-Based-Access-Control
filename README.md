@@ -85,25 +85,29 @@ Steps performed:
 7. Reviewed and clicked Assign to complete the role assignment
 
 
-## Why Assign Roles to Groups Instead of Users?
-- Improves scalability
-- Simplifies onboarding/offboarding
-- Reduces administrative overhead
-- Supports Zero Trust architecture
-- Enhances auditability
+## Why Assign Roles to Groups Instead of Individual Users?
+- Improves scalability – Manage access for multiple users efficiently.
+- Simplifies onboarding and offboarding – Roles automatically apply to new or departing users.
+- Reduces administrative overhead – Less manual assignment and maintenance.
+- Supports Zero Trust architecture – Access is granted based on roles, not individuals.
+- Enhances auditability – Easier tracking and reporting of permissions.
 
+## Reviewing role assignments to confirm proper access controls
 
-## Security Concepts Demonstrated
+Verified access controls by reviewing role assignments: Eneattah Ogebe holds the Virtual Machine Contributor role, and Oluwatobi Babalola has no assigned roles
+
+## Security Concepts Highlighted
+
 - Identity and Access Management (IAM)
 - Role-Based Access Control (RBAC)
 - Subscription-level scope control
 - Delegated administration
-- Automation using PowerShell & CLI
+- Automation via PowerShell & Azure CLI
 - Principle of Least Privilege
 - Access governance best practices
 
-
 ## Skills Demonstrated
+
 - Azure identity governance
 - RBAC configuration and enforcement
 - Cloud access control implementation
@@ -111,21 +115,19 @@ Steps performed:
 - Azure CLI administration
 - Secure delegation of privileges
 
-
 ## Real-World Enterprise Relevance
-In enterprise cloud environments, improper access control is a leading cause of breaches.
-RBAC ensures:
-- Controlled privilege distribution
+
+- In enterprise cloud environments, improper access control is a leading cause of security breaches. RBAC ensures:
+- Controlled distribution of privileges
 - Reduced attack surface
 - Compliance with governance standards
 - Prevention of privilege escalation
 - Clear separation of duties
-- This lab reflects production-grade cloud security practices used in corporate environments.
-
+- This lab mirrors production-grade cloud security practices commonly used in corporate environments.
 
 ## Conclusion
-This lab demonstrates practical implementation of Azure RBAC using multiple management interfaces while enforcing structured identity governance.
-It highlights secure access delegation and cloud security best practices relevant to:
+
+This lab demonstrates the practical implementation of Azure RBAC across multiple management interfaces while enforcing structured identity governance. It emphasizes secure access delegation and cloud security best practices, providing relevant experience for roles such as:
 - Cloud Security Engineer
 - Azure Administrator
 - IAM Analyst
