@@ -198,6 +198,5 @@ RBAC ensures:
 This lab demonstrates the practical implementation of Azure RBAC using multiple management interfaces while enforcing structured identity governance.
 It highlights secure access delegation and cloud security best practices relevant to:
 - Cloud Security Engineer
-- Azure Administrator
 - IAM Analyst
 - SOC Analyst
